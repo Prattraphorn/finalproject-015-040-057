@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+}
+
+.header {
+    background-color: #2b90d9;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.main-content {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Event Details */
+.event-details {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.event-details img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.details h1 {
+    margin-bottom: 0.5rem;
+    color: #2b90d9;
+}
+
+.details p {
+    margin: 0.5rem 0;
+}
+
+/* Registration Form */
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #2b90d9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #226aa8;
+}

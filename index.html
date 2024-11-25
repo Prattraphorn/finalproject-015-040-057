@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventEase</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="top-rectangle"></div>
+    <div class="container">
+        <div class="logo">
+            <h1>EventEase</h1>
+        </div>
+        <!-- ปุ่มเปลี่ยนหน้า -->
+        <button class="start-button" onclick="goToNextPage()">Start</button>
+    </div>
+    <div class="bottom-rectangle"></div>
+    <script>
+        // ฟังก์ชันเปลี่ยนหน้า
+        function goToNextPage() {
+            window.location.href = "register.html"; // เปลี่ยนไปยังไฟล์ register.html
+        }
+    </script>
+</body>
+</html>

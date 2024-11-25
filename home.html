@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventEase - Home</title>
+    <link rel="stylesheet" href="css/home.css">
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">EventEase</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="create-event.html">Create Event</a> <!-- ลิงก์ไปหน้า create event -->
+            <a href="profile.html">My Profile</a> <!-- ลิงก์ไปหน้า Profile -->
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Carousel Section -->
+        <section class="carousel">
+            <h1>EventEase</h1>
+            <div class="carousel-container">
+                <button class="carousel-btn prev">&lt;</button>
+                <div class="carousel-track-container">
+                    <div class="carousel-track">
+                        <img src="/pic/event2.jpg" alt="Event 1" class="current-slide">
+                        <img src="/pic/event4.jpg" alt="Event 2">
+                        <img src="/pic/event3.jpg" alt="Event 3">
+                        <img src="/pic/event5.jpg" alt="Event 4">
+                    </div>
+                </div>
+                <button class="carousel-btn next">&gt;</button>
+            </div>
+            <div class="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>        
+
+        <!-- Event Feed -->
+        <section class="event-feed">
+            <h2>Upcoming Events</h2>
+            <!-- Event cards will be dynamically added here -->
+            <div class="event-feed-container">
+                <!-- Event cards will be appended here from home.js -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 EventEase</p>
+    </footer>
+
+  
+</body>
+</html>

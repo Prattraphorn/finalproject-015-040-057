@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventEase - Register</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script type="text/javascript" src="js/register.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>EventEase</h1>
+        </div>
+
+        <!-- ฟอร์มลงทะเบียน -->
+        <form id="registerForm" class="register-form" action="/regisDB" method="post">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <button type="submit" class="submit-button">Register</button>
+        </form>
+
+        <!-- เพิ่มปุ่มสำหรับผู้ใช้ที่ต้องการล็อกอิน -->
+        <div class="login-section">
+            <p>Already have an account?</p>
+            <button class="start-button" onclick="goToLogin()">Login</button>
+        </div>
+
+        <!-- เพิ่ม div สำหรับแสดงข้อความ -->
+        <div id="responseMessage"></div>
+    </div>
+</body>
+</html>

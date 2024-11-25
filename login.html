@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Login</title>
+		<link type="text/css" rel="stylesheet" href="css/login.css">
+		<script type="text/javascript" src="js/login.js"></script>
+	</head>
+	<body>
+        <div class="container">
+            <div class="logo">
+                <h1>Login</h1>
+            </div>
+            <form class="register-form" action="/checkLogin" method="post" accept-charset="utf-8">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+    
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+    
+                <!-- เปลี่ยน type="button" เป็น type="submit" -->
+                <button type="submit" class="submit-button">Login</button>
+            </form>
+		</div>
+	</body>
+</html>
